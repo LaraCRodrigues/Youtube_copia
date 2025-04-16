@@ -1,0 +1,17 @@
+/* Responsividade para telas menores */
+@media (max-width: 900px) {
+    main {
+      grid-template-columns: 1fr; /* Empilha tudo */
+    }
+  
+    .recommended-videos {
+      margin-top: 30px;
+      max-height: unset;
+    }
+    
+div.barra_pesquisa {
+    display: none;
+}
+
+  }
+  

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Clone</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="MediaQueries.css">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
                     </div>
                   
                     <div class="botoes_expressivos">
-                      <button class="inscrever-button">Se inscrever</button>
+                      <button class="inscrever-button"><i class="bi bi-send"></i> Se inscrever</button>
                       <div class="botoes-direita">
                         <button class="like">
                           <i class="bi bi-hand-thumbs-up"></i>
@@ -55,9 +56,9 @@
                         </button>
                         <button class="compartilhar"><i class="bi bi-share"></i> Compartilhar</button>
                         <button class="download"><i class="bi bi-download"></i> Download</button>
-                        <button class="obr">Obrigado</button>
-                        <button class="clipe">Clip</button>
-                        <button class="salvar">Salvar</button>
+                        <button class="obr"><i class="bi bi-heart"></i> Obrigado</button>
+                        <button class="clipe"><i class="bi bi-scissors"></i> Clip</button>
+                        <button class="salvar"><i class="bi bi-list"></i> Salvar</button>
                       </div>
                     </div>
                   </div>
@@ -241,9 +242,73 @@
 
                 </div>
             </div>
-            <!-- Adicione mais vídeos conforme necessário -->
-        </div>
-        
+            <div class="container-shorts">
+              <div class="video-card">
+                <video class="video-curto" controls>
+                  <source src="videos/short1.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeo.
+                </video>
+                <div class="info-video">
+                  <p class="titulo-usuario">Usuário 1</p>
+                  <p class="descricao-video">Vídeo curto engraçado</p>
+                </div>
+                <div class="botoes-acoes">
+                  <button class="botao-acao">👍</button>
+                  <button class="botao-acao">💬</button>
+                  <button class="botao-acao">📤</button>
+                </div>
+              </div>
+            
+              <div class="video-card">
+                <video class="video-curto" controls>
+                  <source src="videos/short2.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeo.
+                </video>
+                <div class="info-video">
+                  <p class="titulo-usuario">Usuário 2</p>
+                  <p class="descricao-video">Dicas de organização</p>
+                </div>
+                <div class="botoes-acoes">
+                  <button class="botao-acao">👍</button>
+                  <button class="botao-acao">💬</button>
+                  <button class="botao-acao">📤</button>
+                </div>
+              </div>
+            
+              <div class="video-card">
+                <video class="video-curto" controls>
+                  <source src="videos/short3.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeo.
+                </video>
+                <div class="info-video">
+                  <p class="titulo-usuario">Usuário 3</p>
+                  <p class="descricao-video">Receita fácil e rápida</p>
+                </div>
+                <div class="botoes-acoes">
+                  <button class="botao-acao">👍</button>
+                  <button class="botao-acao">💬</button>
+                  <button class="botao-acao">📤</button>
+                </div>
+              </div>
+            
+              <div class="video-card">
+                <video class="video-curto" controls>
+                  <source src="videos/short4.mp4" type="video/mp4">
+                  Seu navegador não suporta vídeo.
+                </video>
+                <div class="info-video">
+                  <p class="titulo-usuario">Usuário 4</p>
+                  <p class="descricao-video">Bastidores de gravação</p>
+                </div>
+                <div class="botoes-acoes">
+                  <button class="botao-acao">👍</button>
+                  <button class="botao-acao">💬</button>
+                  <button class="botao-acao">📤</button>
+                </div>
+              </div>
+            </div>  
+             </div>
+       
     </main>
   
     <footer>
